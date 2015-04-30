@@ -1,0 +1,86 @@
+﻿.clsZipPopUp {
+  left: -8.5em;
+  margin-top: -22em;
+  position: absolute;
+}
+
+.zipcity, .zipstate {
+    background-color: #fff;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset, 0 1px 1px rgba(255, 255, 255, 0.8);
+    color: #666;
+    font-size: 0.8em;
+    height: 30px;
+    margin: 0;
+    outline: 0 none;
+    padding: 5px;
+    width: 130px;
+}
+
+
+
+.zip-wrapper-to::after {
+    border-color: #f8f8f8 transparent;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    bottom: -15px;
+    content: "";
+    display: block;
+    left: 60px;
+    position: absolute;
+    width: 0;
+    z-index: 2;
+}
+
+.zip-wrapper-to {
+    background: none repeat scroll 0 0 #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #b2b2b2;
+    margin-left:600px;
+    margin-top: -10px;
+    padding: 10px 15px;
+    position: absolute;
+    z-index: 2;
+}
+
+.DropDown {
+    padding-top: 10px;
+}
+
+.move_car{
+    background-image: url("../../img/auto-bubble.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    float: right;
+    height: 55px;
+    margin-right: 16px;
+    padding-left: 15px;
+    
+    width: 399px;
+}
+
+
+.selectlist {
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    color: #3086ae;
+    font-size: 1.1em;
+    height: 36px;
+    line-height: 1.8em;
+    margin: 0;
+    outline: 0 none;
+    padding: 5px;
+}
+
+.closeZip {
+    float: right;
+}
+
+.title_zip {
+    float: left;
+    font-size: 0.8em;
+}
+
+
